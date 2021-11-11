@@ -1,5 +1,8 @@
 package com.aadl.tarea.models.domains;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Ciudad {
 
 	private Integer codigoCiudad;

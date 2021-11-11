@@ -5,7 +5,11 @@ public class Empleado {
 	private String nombres;
 	private String apellidos;
 	private Ciudad ciudad;
-	
+	private Sucursal sucursal;
+	private String horario;
+	private String correo;
+	private String celular;
+	private String paginaWeb;
 	
 	
 	public String getNombres() {
@@ -25,6 +29,36 @@ public class Empleado {
 	}
 	public void setCiudad(Ciudad ciudad) {
 		this.ciudad = ciudad;
+	}
+	public Sucursal getSucursal() {
+		return sucursal;
+	}
+	public void setSucursal(Sucursal sucursal) {
+		this.sucursal = sucursal;
+	}
+	public String getHorario() {
+		return horario;
+	}
+	public void setHorario(String horario) {
+		this.horario = horario;
+	}
+	public String getCorreo() {
+		return correo;
+	}
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+	public String getCelular() {
+		return celular;
+	}
+	public void setCelular(String celular) {
+		this.celular = celular;
+	}
+	public String getPaginaWeb() {
+		return paginaWeb;
+	}
+	public void setPaginaWeb(String paginaWeb) {
+		this.paginaWeb = paginaWeb;
 	}
 	
 	

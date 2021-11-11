@@ -1,10 +1,12 @@
 package com.aadl.tarea.models.domains;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Sucursal {
 	private Ciudad ciudad;
 	private Integer codigoSucursal;
 	private String nombreSucursal;
-	
 	
 	
 	public Ciudad getCiudad() {
