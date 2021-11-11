@@ -1,5 +1,5 @@
 package com.aadl.tarea.controllers;
 
-public class Index {
+public class IndexController {
 
 }
