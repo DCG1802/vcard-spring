@@ -9,8 +9,6 @@ public class Empleado {
 	private String horario;
 	private String correo;
 	private String celular;
-	private String paginaWeb;
-	
 	
 	public String getNombres() {
 		return nombres;
@@ -54,12 +52,4 @@ public class Empleado {
 	public void setCelular(String celular) {
 		this.celular = celular;
 	}
-	public String getPaginaWeb() {
-		return paginaWeb;
-	}
-	public void setPaginaWeb(String paginaWeb) {
-		this.paginaWeb = paginaWeb;
-	}
-	
-	
 }
